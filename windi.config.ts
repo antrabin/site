@@ -5,6 +5,7 @@ export default defineConfig({
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        fira: ["Fira Code", "monospace"],
       },
     },
   },

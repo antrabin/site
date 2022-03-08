@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.5.0.tgz#b3169429997cb87850e543cb74660f9e2fed7efd"
   integrity sha512-MrAQ/MrPSxbh1bBrmwJjORfJymw4IqSHFBXqvxaga3ZdDM+/zokYF8DjyJpSjY2QmpmgQrajDUBJOWrYeARfzA==
 
+"@fontsource/fira-code@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.5.tgz#6e3ccb1095e3411d2c62b8f8cefb546b973c6eb9"
+  integrity sha512-bwsPmA5HW11SR0oIkgqSJYI3A8KP8aQLRCCH/EnR9gLHRuTFi1iG7GQ3wDTKy/AhECQJAKjXZ+mkVKlMxUaYCQ==
+
 "@fontsource/poppins@^4.5.2":
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.2.tgz#6da10064b938e66055025122ef8fedc1bdfa3053"
@@ -383,6 +388,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+highlight.js@11.4.0:
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.4.0.tgz#34ceadd49e1596ee5aba3d99346cdfd4845ee05a"
+  integrity sha512-nawlpCBCSASs7EdvZOYOYVkJpGmAOKMYZgZtUqSRqodZE0GRVcFKwo1RcpeOemqh9hyttTdd5wDBwHkuSyUfnA==
+
 import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -700,6 +710,13 @@ svelte-check@^2.2.7:
     source-map "^0.7.3"
     svelte-preprocess "^4.0.0"
     typescript "*"
+
+svelte-highlight@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/svelte-highlight/-/svelte-highlight-5.2.2.tgz#99c35efb6c95c3d69ab68fb7800bcc138cb8a69d"
+  integrity sha512-9Ww/IUg3hxEzKIMElE2HwhyPqzFXzCAWub8G9RFRkAv4Yd/ElnxtVcbS9z0aXXVEHXqe9fWKyVXIp+N8N5GRAA==
+  dependencies:
+    highlight.js "11.4.0"
 
 svelte-hmr@^0.14.9:
   version "0.14.10"

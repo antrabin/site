@@ -1,7 +1,7 @@
 <script></script>
 
-<div class="py-4 border-b-2 border-gray-800">
-  <div class="flex justify-between items-center">
+<div class="absolute h-16 w-full py-4 border-b-2 border-gray-800">
+  <div class="flex justify-between items-center max-w-7xl mx-auto <lg:(px-4)">
     <div>
       <span class="font-poppins text-xl font-black tracking-wide">
         AntraBin
